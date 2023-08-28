@@ -1,0 +1,15 @@
+API Creation:
+----------------------------------------------------
+Controller -> Contains req/res of API
+Routers -> Contains route for API (in case of CreatePost, gets variable from controllers/post)
+Models -> Conatains DB Schema for API calls
+App.js -> Uses API call via app.use() function call (line 10, app.js)
+
+Create a .env file on Fork
+-----------------------------------------------------
+PORT = 3000
+MONGO_URL = mongodb://0.0.0.0:27017/ReactNativeBlog
+
+CLOUD_NAME = Access Denied
+CLOUD_API_KEY = Access Denied
+CLOUD_SECRET = Access Denied
