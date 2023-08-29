@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment # Set up the deployement kind
+metadata:
+  name: dijkstra-api-suite-deployment # Name for the deployement
+  labels:
+    app: dijkstra
+spec:
+  replicas: 1 # Number of clones that we want
+  selector:
+    matchLabels:
+      app: dijkstra
+  template:
+    metadata:
+      labels:
+        app: dijkstra
+    spec:
+      containers:
+        - name: dijkstra-server
+          image: dijkstraapi.azurecr.io/dijkstra-api:v2 # Container name that we pushed to ACR
+          ports:
+            - containerPort: 3000 # Container port number
+--- # We can seperate file in YAML using --- dashes instead of writing them on seperate files
+apiVersion: v1
+kind: Service # Set up the service kind
+metadata:
+  name: dijkstra-loadbalancer-service
+  labels:
+    app: dijkstra
+spec:
+  selector:
+    app: dijkstra
+  ports:
+    - port: 3000
+      protocol: TCP
+      targetPort: 3000
+  type: LoadBalancer # Here we use load balancer service.
+    # - port: 443
+    #   targetPort: 3000
