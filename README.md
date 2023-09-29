@@ -13,11 +13,11 @@
     <a href="https://www.linkedin.com/company/dijkstra-edu/">LinkedIn</a> •
     <a href="https://discord.com/invite/Vs87cBBU">Discord</a>
     <br /><br />
-    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Dijkstra-Edu/Dijkstra?style=social">
+    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Dijkstra-Edu/Dijkstra-API-suite?style=social">
     <img alt="npm" src="https://img.shields.io/npm/v/npm">
-    <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/Dijkstra-Edu/Dijkstra/master">
-    <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Dijkstra-Edu/Dijkstra">
-    <img alt="GitHub" src="https://img.shields.io/github/license/Dijkstra-Edu/Dijkstra">
+    <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/Dijkstra-Edu/Dijkstra-API-suite/master">
+    <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Dijkstra-Edu/Dijkstra-API-suite">
+    <img alt="GitHub" src="https://img.shields.io/github/license/Dijkstra-Edu/Dijkstra-API-suite">
     <img alt="Docker" src="https://img.shields.io/docker/v/jrs296/dijkstra-api/v3?logo=docker">
     <img alt="Azure" src="https://img.shields.io/badge/Azure%20API-UP-blue?logo=microsoftazure&logoColor=blue">
     <img alt="Kubernetes" src="https://img.shields.io/badge/Kubernetes-v1.26.6-purple?logo=kubernetes&logoColor=white">
