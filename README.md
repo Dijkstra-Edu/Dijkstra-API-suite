@@ -25,7 +25,7 @@
 </p>
 
 # Dijkstra - A one Stop Solution for all your CompSci educational needs!
-  Dijkstra aims to solve developmental gaps within the Student Community of Tier-2 and Tier-3 Colleges in India in the field of Computer Science by: 
+  Dijkstra aims to solve developmental issues within the Student Community of Tier-2 and Tier-3 Colleges in India in the field of Computer Science by: 
  - Bringing students together and creating a community for all who are passionate about learning computer science but are not sure how to go about it. Dijkstras application provides a community that is open-source by nature. It is run by students, for students, and provides a safe space for learning, collaboration, and mentorship, irrespective of who you are. 
  - Defining a clear path to success, be it with improving fundamentals like data structures and algorithms, networks, operating systems, etc. for clearing interviews at big tech companies, Developmental knowledge to be work-ready in the industry and soft skills to get students within the community ready on all fronts for a career in tech. 
  - Building an environment for students to actively hone their developmental skills in real time via the open-source development of Dijstra. Students will be able to get real-time work experience by collaborating on the development of Dijkstra. This would include skills in full-stack development, micro-services development, cloud services, etc. All of which will be made available for students to access and work on. In simple terms, Dijkstra aims to be a one-stop solution for any aspiring CS student to become work-ready  
